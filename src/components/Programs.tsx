@@ -95,7 +95,7 @@ export default function Programs() {
         const els = ref.current?.querySelectorAll('.animate-on-scroll');
         els?.forEach((el) => observer.observe(el));
         return () => observer.disconnect();
-    }, []);
+    }, [activeFilter]);
 
     const filtered = programs.filter(
         (p) => activeFilter === 'All' || p.level === activeFilter,
