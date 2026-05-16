@@ -134,7 +134,6 @@ export default function Programs() {
                         ambition.
                     </p>
 
-                    {/* Filter tabs */}
                     <div
                         className="animate-on-scroll flex justify-center gap-3 mt-8"
                         style={{ transitionDelay: '0.3s' }}>
