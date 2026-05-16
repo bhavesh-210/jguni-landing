@@ -161,7 +161,7 @@ export default function Programs() {
                     {filtered.map((prog, i) => (
                         <div
                             key={prog.name}
-                            className="animate-on-scroll glass-card rounded-2xl p-6 hover:border-gold-400/25 transition-all duration-300 hover:-translate-y-2 group cursor-pointer"
+                            className="glass-card rounded-2xl p-6 hover:border-gold-400/25 transition-all duration-300 hover:-translate-y-2 group cursor-pointer"
                             style={{ transitionDelay: `${i * 0.05}s` }}>
                             {/* Top */}
                             <div className="flex items-start justify-between mb-4">
